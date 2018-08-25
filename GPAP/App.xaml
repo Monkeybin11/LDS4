@@ -1,0 +1,28 @@
+﻿<Application x:Class="GPAP.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="clr-namespace:GPAP.ViewModel"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:Converters="clr-namespace:GPAP.Converter"
+			 xmlns:ignore="http://www.galasoft.ch/ignore"
+             StartupUri="MainWindow.xaml"
+             mc:Ignorable="d ignore">
+    
+    <Application.Resources>
+        <!--Global View Model Locator-->
+        <ResourceDictionary>
+            <vm:ViewModelLocator x:Key="Locator" d:IsDataSource="True" />
+            <Converters:Int2BackgroundBrush x:Key="Int2BackgroundBrush"/>
+            <Converters:int2Visibility x:Key="int2Visibility"/>
+            <Converters:Double2String x:Key="Double2String"/>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resource/MDStyle.xaml"/>
+                <ResourceDictionary Source="Resource/StylesResourceDictionary.xaml"/>
+                <ResourceDictionary Source="Resource/Lang/Lang_CH.xaml"/>
+                <ResourceDictionary Source="Resource/Lang/Lang_EN.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+    
+</Application>

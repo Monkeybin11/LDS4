@@ -1,0 +1,38 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    
+    <system:String x:Key="Appliction_Title">Assembly Bench</system:String>
+    <system:String x:Key="Page_Frame_Menu_Page_Home">Home</system:String>
+    <system:String x:Key="Page_Frame_Menu_Page_Run"> Run </system:String>
+    <system:String x:Key="Page_Frame_Menu_Page_Menu">Menu</system:String>
+    <system:String x:Key="Menu_Run">Run</system:String>
+    <system:String x:Key="Menu_Pause">Pause</system:String>
+    <system:String x:Key="Menu_Stop">Stop</system:String>
+    <system:String x:Key="Menu_Home">Home</system:String>
+    <system:String x:Key="Menu_Setting">Setting</system:String>
+    <system:String x:Key="Menu_Camera">Camera</system:String>
+    <system:String x:Key="Menu_Monitor">Monitor</system:String>
+    <system:String x:Key="Menu_Teach">Teach</system:String>
+    <system:String x:Key="Menu_User">User</system:String>
+    <system:String x:Key="Snake_OK">OK</system:String>
+
+    
+    <system:String x:Key="Status_Version">Ver:1.0.0.0</system:String>
+    <system:String x:Key="Status_User">User:</system:String>
+    <system:String x:Key="Status_Info">INFO</system:String>
+
+  
+
+
+    
+
+    <system:String x:Key="SettingPage_Process_parameters">Process parameters</system:String>
+    <system:String x:Key="SettingPage_CenterLineOffset">CenterLineOffset</system:String>
+    <system:String x:Key="SettingPage_Pad_Perpendicular">PadPerpendicularOffset</system:String>
+    <system:String x:Key="SettingPage_Machine_parameters">Machine parameter</system:String>
+    <system:String x:Key="SettingPage_BtnApply">Apply</system:String>
+    <system:String x:Key="SettingPage_BtnSave">Save</system:String>
+
+   
+</ResourceDictionary>
